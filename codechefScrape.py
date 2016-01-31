@@ -76,8 +76,8 @@ def notify(present,callType,shelfFile):
                 shelfFile[contest[0]]=[1,1]                 ##Sets contest as notified. This contest won't be notified again.
             msg+="Code : "+str(contest[0])
             msg+="\nName : "+str(contest[1])
-            msg+="\nStarts on : "+contest[2].strftime("%dth %B, %Y")
-            msg+="\nEnds on : "+contest[3].strftime("%dth %B, %Y")
+            msg+="\nStarts on : "+contest[2].strftime("%d %B, %Y")
+            msg+="\nEnds on : "+contest[3].strftime("%d %B, %Y")
             msg+='\n\n'
             balloon_tip(title,msg)
 
