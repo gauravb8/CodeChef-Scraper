@@ -6,7 +6,7 @@ A script to crawl the CodeChef contests page and notify user of new and present 
 
 * The script scrapes the site every hour. 
 
-* Bullet List A system tray notification is displayed if a new contest is added or a contest is currently in progress.
+* A system tray notification is displayed if a new contest is added or a contest is currently in progress.
 
 # Compatibility
 * Python 2.7
