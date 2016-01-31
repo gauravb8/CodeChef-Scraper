@@ -13,4 +13,4 @@ A script to crawl the CodeChef contests page and notify user of new and present 
 
 * Windows only currently(notification mechanism for Linux and MacOS version needed)
 
-
+Credit for the notification file balloon_tip.py goes to @boppreh
