@@ -71,7 +71,7 @@ def notify(present,callType,shelfFile):
         
         for contest in present:
             msg=""
-            print contest
+##            print contest
             if callType=='ongoing':
                 shelfFile[contest[0]]=[1,1]                 ##Sets contest as notified. This contest won't be notified again.
             msg+="Code : "+str(contest[0])
@@ -121,10 +121,10 @@ while True:
         new=scrapeSave(contests,shelfFile)
         notify(new,'new',shelfFile)
     except Exception as e:
-        print "Connection couldn't be established. ",e
+        print "Connection couldn't be established : ",e
     if shelfFile!={}:
         present=onGoing(shelfFile)
         notify(present,'ongoing',shelfFile)
     shelfFile.close()
-    sleep(5)
+    sleep(216000)               ##Check after 1 hour
 
