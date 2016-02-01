@@ -2,7 +2,12 @@
 A script to crawl the CodeChef contests page and notify user of new and present contests.
 
 # Usage
-* After downloading all the files in master branch, run codechefScrape.py via command line or IDLE.
+* After downloading all the files in master branch, run 
+
+```python
+pythonw.exe codechefScraper.py
+```
+  in the command line.
 
 * The script scrapes the site every hour. 
 
