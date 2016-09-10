@@ -18,4 +18,4 @@ pythonw.exe codechefScraper.py
 
 * Windows only currently(notification mechanism for Linux and MacOS version needed)
 
-Credit for the notification file balloon_tip.py goes to @boppreh
+Credit for the notification file notf.py goes to @boppreh
